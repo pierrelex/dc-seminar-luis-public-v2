@@ -35,7 +35,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
   - git:
-      repoURL: https://github.com/<your-github-name>/<your-repo-name>.git
+      repoURL: https://github.com/pierrelex/dc-seminar-luis-public-v2
       revision: HEAD
       directories:
         - path: crossplane/providers/*
@@ -46,7 +46,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/<your-github-name>/<your-repo-name>.git
+        repoURL: https://github.com/pierrelex/dc-seminar-luis-public-v2
         targetRevision: HEAD
         path: '{{.path.path}}'
         directory:
